@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Store - Games Available</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css">
+    <style>
+        .card img {
+            height: 200px; /* Set a fixed height for images */
+            object-fit: cover; /* Maintain aspect ratio and cover the area */
+        }
+        .card {
+            height: 100%; /* Make all cards the same height */
+        }
+        .card-body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between; /* Space out elements evenly */
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-dark text-white p-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="logo">
+                <h1>Game Store</h1>
+            </div>
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link text-white" href="home.html"><i class="fas fa-home"></i> Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="aboutus.html"><i class="fas fa-info-circle"></i> About</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="games.html"><i class="fas fa-gamepad"></i> Games</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="location.html"><i class="fas fa-map-marker-alt"></i> Location</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container my-5">
+        <section id="games">
+            <h2>Games Available</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="ps5.jpeg" class="card-img-top" alt="Game 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Game Title 1</h5>
+                            <p class="card-text">Platform: PlayStation 5</p>
+                            <p class="card-text">Price: $59.99</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="Xbox Series X _ Xbox.jpeg" class="card-img-top" alt="Game 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Game Title 2</h5>
+                            <p class="card-text">Platform: Xbox Series X</p>
+                            <p class="card-text">Price: $49.99</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="The Best Nintendo Switch Accessories for Your First Vacation.jpeg" class="card-img-top" alt="Game 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Game Title 3</h5>
+                            <p class="card-text">Platform: Nintendo Switch</p>
+                            <p class="card-text">Price: $39.99</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="pc.jpeg" class="card-img-top" alt="Game 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Game Title 4</h5>
+                            <p class="card-text">Platform: PC</p>
+                            <p class="card-text">Price: $29.99</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="ps4.jpeg" class="card-img-top" alt="Game 5">
+                        <div class="card-body">
+                            <h5 class="card-title">Game Title 5</h5>
+                            <p class="card-text">Platform: PlayStation 4</p>
+                            <p class="card-text">Price: $19.99</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="xbox1.jpeg" class="card-img-top" alt="Game 6">
+                        <div class="card-body">
+                            <h5 class="card-title">Game Title 6</h5>
+                            <p class="card-text">Platform: Xbox One</p>
+                            <p class="card-text">Price: $14.99</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Game Store. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
